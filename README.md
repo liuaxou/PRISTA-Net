@@ -18,3 +18,9 @@ You can use `conda env create -f py39.yaml` to create conda environment
 
 ## Test CS-MRI
 
+1.1、Pre-trained models:  
+find the pre-trained model for our paper are in './model/PRISTA_CDP_Group_1_layer_num_7_lr_0.0010'.  
+1.2、Prepare test data:  
+The original test set is in './data/Test/TestImages_128' and './data/Test/TestImages_256'.  
+1.3、Run the test script.  
+`python test.py --end_epoch=200 --layer_num=7 --group_num=1 --SamplingRate=4 --measurement_type='CDP' --ResF=1 --atten=1 --shared_ResF=0 --shared_CBAM=0 --log_set=0 `
