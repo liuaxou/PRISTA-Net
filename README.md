@@ -16,7 +16,7 @@ Fig. 1. The overall architecture of the proposed PRISTA-Net.
 
 You can use `conda env create -f py39.yaml` to create conda environment
 
-## Test CS-MRI
+## Test
 
 1.1、Pre-trained models:  
 find the pre-trained model for our paper are in './model/PRISTA_CDP_Group_1_layer_num_7_lr_0.0010'.  
