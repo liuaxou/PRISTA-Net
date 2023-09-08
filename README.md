@@ -36,4 +36,4 @@ The original test set is in './data/Test/TestImages_128' and './data/Test/TestIm
 Thanks to the authors of ISTA-Net and PrDeep, our codes are adapted from the open source codes of ISTA-Net and PrDeep.
 
 ## Concat
-The code is provided to support reproducible research. If the code is giving syntax error in your particular python configuration or some files are missing then you may open an issue or directly email me at (202121511147@smail.xtu.edu.cn)
+The code is provided to support reproducible research. If the code is giving syntax error in your particular python configuration or some files are missing then you may open an issue or directly email me at 202121511147@smail.xtu.edu.cn
