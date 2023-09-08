@@ -27,6 +27,13 @@ The original test set is in './data/Test/TestImages_128' and './data/Test/TestIm
 
 ## Train
 
-1.Download the dataset provide in the [link](https://pan.baidu.com/s/1LZfPvns4b08TWJwSdFw-8Q?pwd=ouee)  
+1.Download the dataset provide in the [link](https://pan.baidu.com/s/1LZfPvns4b08TWJwSdFw-8Q?pwd=ouee).  
 2.Run the train script.  
 `python train.py --end_epoch=200 --layer_num=7 --group_num=1 --SamplingRate=4 --measurement_type='CDP' --ResF=1 --atten=1 --shared_ResF=0 --shared_CBAM=0 --log_set=0`
+
+## Acknowledgements
+
+Thanks to the authors of ISTA-Net and PrDeep, our codes are adapted from the open source codes of ISTA-Net and PrDeep.
+
+## Concat
+The code is provided to support reproducible research. If the code is giving syntax error in your particular python configuration or some files are missing then you may open an issue or directly email me at (202121511147@smail.xtu.edu.cn)
