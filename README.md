@@ -27,7 +27,7 @@ The original test set is in './data/Test/TestImages_128' and './data/Test/TestIm
 
 ## Train
 
-1.Download the dataset provide in the [link](https://pan.baidu.com/s/1LZfPvns4b08TWJwSdFw-8Q?pwd=ouee).  
+1.Download the dataset provide in the [link](https://pan.baidu.com/s/1LZfPvns4b08TWJwSdFw-8Q?pwd=ouee) and put it in the directory './data/Train/'.  
 2.Run the train script.  
 `python train.py --end_epoch=200 --layer_num=7 --group_num=1 --SamplingRate=4 --measurement_type='CDP' --ResF=1 --atten=1 --shared_ResF=0 --shared_CBAM=0 --log_set=0`
 
